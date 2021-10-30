@@ -1,8 +1,3 @@
-"""
-Calculate nth Fibonacci term where
-for n=0 it prints 0, n=1 it prints 1
-"""
-
 
 class NegativeNumber(Exception):
     pass
@@ -13,7 +8,7 @@ def fibonacci_iter(n):
     a, b = 0, 1
 
     if n < 0:
-        raise NegativeNumber("Fibonacci not defined for negative numbers!")
+        raise NegativeNumber("Fibonacci are not defined for negative numbers!")
 
     if n == 0:
         return 0
@@ -24,10 +19,7 @@ def fibonacci_iter(n):
 
     return b
 
-
-
-
 if __name__ == "__main__":
 
-    n= int(input("Enter n "))
+    n= int(input("Enter n number"))
     print(fibonacci_iter(n))
