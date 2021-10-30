@@ -1,2 +1,2 @@
 # Hacktoberfest-Python
-A repository for games written in python
+Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR.
